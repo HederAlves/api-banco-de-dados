@@ -1,0 +1,19 @@
+{
+  "name": "produtos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "produtos": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "ws": "^8.2.3"
+  }
+}
